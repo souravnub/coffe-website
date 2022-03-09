@@ -492,10 +492,10 @@ nav .buttons > * + * {
 }
 .item_menu img {
     max-width: 100%;
-    width: 15vw;
+    width: 250px;
+    height: 250px;
     border: 2px solid var(--main);
     padding: 2px;
-    aspect-ratio: 1;
     border-radius: 50%;
 
     object-fit: cover;
@@ -1035,6 +1035,11 @@ footer > span span {
         font-size: 2.4rem;
     }
 
+    .item_menu img {
+        width: 180px;
+        height: 180px;
+    }
+
     nav {
         padding: 0 10px;
     }
@@ -1091,6 +1096,10 @@ footer > span span {
 @media (max-width: 530px) {
     .review_card {
         min-width: 305px;
+    }
+    .item_menu img {
+        width: 100px;
+        height: 100px;
     }
 }
 
