@@ -131,8 +131,11 @@ nav .nav_links {
 nav .buttons {
     display: flex;
     align-items: center;
-    gap: 3vw;
     margin: 0 1rem;
+}
+
+nav .buttons > * + * {
+    margin-left: 0.15rem;
 }
 
 /* navigation section ends */
