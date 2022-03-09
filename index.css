@@ -135,7 +135,7 @@ nav .buttons {
 }
 
 nav .buttons > * + * {
-    margin-left: 0.15rem;
+    margin-left: 0.8rem;
 }
 
 /* navigation section ends */
