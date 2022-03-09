@@ -493,8 +493,8 @@ nav .buttons > * + * {
 .item_menu img {
     max-width: 100%;
     width: 15vw;
-    outline: 2px solid var(--main);
-    outline-offset: 5px;
+    border: 2px solid var(--main);
+    padding: 2px;
     aspect-ratio: 1;
     border-radius: 50%;
 
