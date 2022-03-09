@@ -67,7 +67,9 @@ nav {
 
 nav ul {
     display: flex;
-    gap: 3vw;
+}
+nav ul > * + * {
+    margin-left: 3vw;
 }
 
 nav .logo {
@@ -1036,6 +1038,10 @@ footer > span span {
 
     nav ul {
         display: none;
+    }
+
+    nav ul > * + * {
+        margin-left: 0;
     }
 
     nav .hammenu {
