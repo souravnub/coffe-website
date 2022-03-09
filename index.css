@@ -175,6 +175,8 @@ nav .buttons {
 .cart_section {
     position: fixed;
     background-color: rgba(255, 186, 122, 0.514);
+    padding-inline: 1rem;
+    padding-top: 0.3rem;
     top: 11vh;
     right: 3px;
     text-align: center;
@@ -186,8 +188,6 @@ nav .buttons {
 
     height: 89vh;
     width: 40vw;
-    padding-top: 20px;
-    padding-bottom: 2rem;
 
     overflow-y: scroll;
 
