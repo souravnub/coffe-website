@@ -498,6 +498,8 @@ nav .buttons > * + * {
     aspect-ratio: 1;
     border-radius: 50%;
 
+    object-fit: cover;
+
     transition: transform 500ms ease;
 }
 .item_menu > h1 {
