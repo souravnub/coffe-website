@@ -750,10 +750,13 @@ nav .buttons > * + * {
 .contact_section {
     padding: 3rem;
     display: flex;
-    gap: 2rem;
+
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.contact_section > h1 {
+    margin-bottom: 2rem;
 }
 
 .contact_section > h1 {
@@ -779,11 +782,14 @@ nav .buttons > * + * {
     text-align: center;
     background: rgba(24, 26, 27, 0.7);
 
-    gap: 2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.contact_container .form > * + * {
+    margin-top: 2rem;
 }
 
 .contact_container .form span {
@@ -798,7 +804,6 @@ nav .buttons > * + * {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    gap: 1.5rem;
     padding: 0 1rem;
     height: 60%;
 }
@@ -838,7 +843,6 @@ nav .buttons > * + * {
 }
 
 .contact_container .form input[type="submit"] {
-    margin-top: 0.4rem;
     padding: 0.5em 1em;
     font-size: 1.1rem;
     cursor: pointer;
@@ -850,6 +854,10 @@ nav .buttons > * + * {
     border: none;
     font-weight: 500;
     transition: letter-spacing 500ms ease;
+}
+
+.form form > * + * {
+    margin-top: 1rem;
 }
 
 .contact_container .form input[type="submit"]:hover {
